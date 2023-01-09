@@ -1,0 +1,301 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Marcellus, sans-serif;
+}
+
+body {
+  background: #efefef;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  height: 100px;
+  padding: 1rem 5rem;
+}
+
+nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  color: black;
+}
+
+nav a:hover:not(.logo) {
+  border-bottom: 1px solid #153d39;
+  color: #153d39;
+}
+
+.logo:hover {
+  opacity: 0.5;
+}
+
+nav img {
+  width: 200px;
+}
+
+/* main================================================================================ */
+main {
+  display: flex;
+  margin: 1rem;
+  align-items: center;
+}
+
+main div {
+  flex: 1;
+  padding: 0 10rem;
+}
+
+main h1 {
+  font-size: 3rem;
+  color: #949c9b;
+}
+
+main bold {
+  color: black;
+  font-size: 4rem;
+}
+
+main h2 {
+  margin: 1rem 0;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+/* section2============================================= */
+.section2 {
+  display: flex;
+  background: #031b18;
+  color: white;
+  padding: 0 1rem;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.section2 > * {
+  width: 50%;
+  text-align: center;
+}
+
+.section2 a {
+  color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 1rem 2rem;
+  margin: 0 auto;
+}
+
+.section2 a:hover {
+  background: white;
+  color: #031b18;
+  transition: 0.5s;
+}
+
+.section2 p {
+  margin: 2rem 0;
+  text-align: left;
+}
+
+/* section3================================= */
+.section3 {
+  margin: 5rem 10rem;
+}
+
+.section3 p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.funcionarios {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.funcionarios span:first-child {
+  font-size: 4rem;
+}
+
+.funcionarios span {
+  display: block;
+  text-align: center;
+}
+
+/* section4================================ */
+.section4 {
+  background: #031b18;
+  color: white;
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.section4 h2 {
+  font-size: 3rem;
+}
+
+.acomodacoes {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.acomodacoes a {
+  color: white;
+}
+
+.acomodacoes a:hover {
+  opacity: 0.4;
+  transition: 0.5s;
+}
+
+.acomodacoes h3 {
+  font-size: 2rem;
+}
+
+.acomodacoes span {
+  font-size: 1.5rem;
+}
+
+/* seçao formulario======================================= */
+.secao-formulario {
+  padding: 5rem;
+  display: flex;
+}
+
+.secao-formulario > * {
+  background: white;
+  padding: 5rem;
+}
+
+.secao-formulario h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.secao-formulario h3 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.secao-formulario .info:not(h3) {
+  font-size: 1.2rem;
+}
+
+.secao-formulario form {
+  display: flex;
+  flex-flow: column;
+  flex: 2;
+  border-left: 1px solid black;
+}
+
+input,
+textarea {
+  outline: none;
+  border: none;
+  margin: 1rem 0;
+  border-bottom: 1px solid;
+}
+
+input:focus,
+textarea:focus {
+  border-color: orange;
+  transition: 0.5s;
+}
+
+.btn {
+  width: 10%;
+  border: 0;
+  background: #153d39;
+  color: white;
+  padding: 1rem;
+}
+
+.btn:hover {
+  background: #f57b1d;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+/* footer===================================== */
+footer {
+  display: flex;
+  padding: 1rem;
+  background: #031b18;
+  color: white;
+  justify-content: space-around;
+  flex-flow: column;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer a {
+  color: white;
+}
+
+.container-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 300px;
+  filter: brightness(0) saturate(100%) invert(99%) sepia(0%) hue-rotate(269deg)
+    contrast(100%);
+}
+
+footer h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+footer li {
+  margin: 1rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+footer a:hover {
+  opacity: 0.5;
+}
+
+.redes-sociais {
+  display: flex;
+  gap: 2rem;
+}
+
+.redes-sociais i:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.container-copyright {
+  border-top: 1px solid white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.container-copyright a {
+  text-decoration: underline;
+}
