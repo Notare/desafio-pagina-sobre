@@ -8,6 +8,18 @@ Desafio do bootcamp [T.EXperts](https://texperts.com.br) para recriar a página 
 
 **Minha versão recriada:** https://notare.github.io/desafio-pagina-sobre
 
+## O que foi instruído:
+
+- Criar uma versão da página "sobre" de um hotel
+
+- Aplicar responsividade mínima para mobile retrato
+
+- Cabeçalho e rodapé podem ser idênticos ao do projeto em grupo
+
+- Use sua criatividade
+
+- O exercício é individual
+
 ## Como foi feito:
 
 **Tecnologia usada:** HTML e CSS
