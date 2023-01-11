@@ -1,4 +1,4 @@
-# Desafio página sobre
+# Desafio página "sobre"
 
 <a href="https://notare.github.io/desafio-pagina-sobre" target="_blank"><img src="./images/1.gif" /></a>
 
@@ -16,7 +16,7 @@ Meu aprendizado foi focado em um design simples e intuitivo, sempre prezando pel
 
 ## Otimizações
 
-Para melhorar esse projeto, eu aprimoraria as media queries e adicionaria um menu hamburguer para mobile.
+Para melhorar esse projeto, eu aprimoraria as media queries, adicionaria um menu hamburguer para mobile e refatoraria as listas da navbar.
 
 ## Lições aprendidas:
 
