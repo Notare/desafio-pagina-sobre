@@ -8,7 +8,7 @@ Desafio do bootcamp [T.EXperts](https://texperts.com.br) para recriar a página 
 
 **Minha versão recriada:** https://notare.github.io/desafio-pagina-sobre
 
-## O que foi instruído:
+## O que foi instruído
 
 - Criar uma versão da página "sobre" de um hotel
 
@@ -20,7 +20,7 @@ Desafio do bootcamp [T.EXperts](https://texperts.com.br) para recriar a página 
 
 - O exercício é individual
 
-## Como foi feito:
+## Como foi feito
 
 **Tecnologia usada:** HTML e CSS
 
@@ -30,11 +30,11 @@ Meu aprendizado foi focado em um design simples e intuitivo, sempre prezando pel
 
 Para melhorar esse projeto, eu aprimoraria as media queries, adicionaria um menu hamburguer para mobile e refatoraria as listas da navbar.
 
-## Lições aprendidas:
+## Lições aprendidas
 
 Aprendi a fazer um efeito hover parecendo uma linha de animação nos itens da navbar.
 
-## Outros projetos:
+## Outros projetos
 
 **Template Salão de Beleza:** https://github.com/Notare/hair-salon-template
 
