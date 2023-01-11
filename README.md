@@ -1,6 +1,6 @@
 # Desafio página sobre
 
-<a href="https://notare.github.io/desafio-pagina-sobre"><img src="./images/1.gif" /></a>
+<a href="https://notare.github.io/desafio-pagina-sobre" target="_blank"><img src="./images/1.gif" /></a>
 
 Desafio do bootcamp [T.EXperts](https://texperts.com.br) para recriar a página "sobre" de um hotel.
 
